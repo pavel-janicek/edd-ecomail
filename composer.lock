@@ -1,0 +1,74 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d2ea2e3e104894014ef8f3ae6cac06a2",
+    "packages": [
+        {
+            "name": "ecomailcz/ecomail",
+            "version": "v1.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ecomailcz/ecomail-php.git",
+                "reference": "c7370229cf94a7129bb6386136da0df59424c9e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ecomailcz/ecomail-php/zipball/c7370229cf94a7129bb6386136da0df59424c9e1",
+                "reference": "c7370229cf94a7129bb6386136da0df59424c9e1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.9"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU GPL 3"
+            ],
+            "authors": [
+                {
+                    "name": "Filip Šedivý",
+                    "email": "mail@filipsedivy.cz",
+                    "homepage": "https://filipsedivy.cz",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Ecomail.cz API Wrapper",
+            "keywords": [
+                "Ecomail",
+                "api",
+                "email",
+                "marketing",
+                "newsletter",
+                "wrapper"
+            ],
+            "support": {
+                "issues": "https://github.com/Ecomailcz/ecomail-php/issues",
+                "source": "https://github.com/Ecomailcz/ecomail-php/tree/v1.2.5"
+            },
+            "time": "2021-09-06T09:34:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
